@@ -5,7 +5,7 @@ FROM amazon/aws-cli:2.13.30
 ENV AWS_PAGER=""
 
 # Copy the script into the image
-COPY ecr_add_tag.sh /usr/local/bin/ecr_add_tag.sh
+COPY ./ecr_add_tag.sh /usr/local/bin/ecr_add_tag.sh
 
 # Make the script executable
 RUN chmod +x /usr/local/bin/ecr_add_tag.sh
