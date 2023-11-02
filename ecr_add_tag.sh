@@ -2,7 +2,7 @@
 
 # Check for the correct number of arguments
 if (( $# < 3 )); then
-  echo "Wrong number of arguments. Usage: $0 ECR_REPO_NAME TAG_TO_FIND TAG_TO_ADD [AWS_PROFILE]"
+  echo "Wrong number of arguments. Usage: $0 ECR_REPO_NAME TAG_TO_FIND TAG_TO_ADD [AWS_PROFILE] [AWS_REGION]"
   exit 1
 fi
 
