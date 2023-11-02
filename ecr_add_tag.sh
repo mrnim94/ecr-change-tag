@@ -10,8 +10,9 @@ fi
 repo_name=$1
 existing_tag=$2
 new_tag=$3
-profile=$4
-region=$5
+region=$4
+profile=$5
+
 
 # If a profile is provided, format it correctly
 [[ ! -z "$profile" ]] && profile="--profile ${profile}"
